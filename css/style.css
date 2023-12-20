@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Archangelsk";
-  src: url("../fonts/Archangelsk.woff2") format("woff2"), url("../fonts/Archangelsk.woff") format("woff");
+  src: url("../fonts/Archangelsk.woff2") format("woff2"),
+    url("../fonts/Archangelsk.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -52,7 +53,7 @@ img {
   align-items: center;
   text-align: center;
   font-size: 18px;
-  color: #F8F200;
+  color: #f8f200;
   font-weight: 700;
   line-height: 1.7;
   padding: 15px 50px;
@@ -63,11 +64,11 @@ img {
 .cut-box {
   overflow: hidden;
   -webkit-clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
-          clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+  clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
 }
 
 .color__word {
-  color: #52BEDC;
+  color: #52bedc;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 18px;
   font-weight: 700;
@@ -132,7 +133,7 @@ img {
   z-index: 2;
   padding: 70px;
   width: 624px;
-  background-color: #F8F200;
+  background-color: #f8f200;
 }
 .intro-content__title {
   font-family: "Archangelsk";
@@ -182,14 +183,14 @@ img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .item__box img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .draw {
@@ -212,7 +213,7 @@ img {
   font-size: 62px;
   font-weight: 400;
   line-height: 1.01;
-  color: #FFF;
+  color: #fff;
   width: 100%;
 }
 .draw__text {
@@ -265,6 +266,8 @@ img {
   padding-left: 0;
   border-bottom: 1px solid #777;
   margin-bottom: 26px;
+  color: #f8f200;
+  padding-left: 10px;
 }
 .form__input:nth-child(2) {
   margin-bottom: 36px;
@@ -273,7 +276,7 @@ img {
   margin-bottom: 15px;
   padding: 15px 50px;
   color: #000;
-  background-color: #F8F200;
+  background-color: #f8f200;
 }
 
 .form-label {
@@ -327,7 +330,7 @@ img {
   font-weight: 300;
   font-size: 12px;
   line-height: 14px;
-  color: #FFF;
+  color: #fff;
 }
 .checkbox__text::before {
   content: "";
@@ -357,7 +360,7 @@ img {
 .display {
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: #F8F200;
+  background-color: #f8f200;
 }
 .display__container {
   display: flex;
@@ -452,14 +455,14 @@ img {
 }
 .get__title {
   padding-bottom: 25px;
-  color: #FFF;
+  color: #fff;
   font-family: "Archangelsk";
   font-size: 62px;
   font-weight: 400;
   line-height: 1.01;
 }
 .get__subtitle {
-  color: #52BEDC;
+  color: #52bedc;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.16;
@@ -499,7 +502,7 @@ img {
   width: 50%;
   max-width: 944px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .get-platform {
@@ -687,7 +690,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
     width: 100%;
   }
   .block__info {
@@ -796,4 +799,4 @@ img {
   .draw__title::before {
     left: 20px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
